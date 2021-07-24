@@ -9,6 +9,7 @@ import { MatCardModule } from '@angular/material/card'
 import { PostsPageComponent } from './pages/posts-page/posts-page.component';
 import { PostSmallComponent } from './components/post-small/post-small.component';
 import { PostDetailComponent } from './components/post-detail/post-detail.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PostDetailComponent } from './components/post-detail/post-detail.compon
     AppRoutingModule,
     MatSliderModule,
     MatCardModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

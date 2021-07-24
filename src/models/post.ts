@@ -5,6 +5,6 @@ export interface Post {
     title: string;
     location: string;
     poster: ProfileId;
-    image: ImageId;
+    imageUrl: ImageId;
     description: string;
 }
