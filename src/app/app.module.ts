@@ -5,15 +5,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatCardModule } from '@angular/material/card'
+import { PostsPageComponent } from './pages/posts-page/posts-page.component';
+import { PostSmallComponent } from './components/post-small/post-small.component';
+import { PostDetailComponent } from './components/post-detail/post-detail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PostsPageComponent,
+    PostSmallComponent,
+    PostDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatSliderModule,
+    MatCardModule,
     BrowserAnimationsModule
   ],
   providers: [],
