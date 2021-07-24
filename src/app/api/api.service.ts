@@ -1,8 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { tap } from 'rxjs/operators';
+import { map, tap } from 'rxjs/operators';
 import { Post } from '../../models/post';
+import { ProfileId, PostId } from '../../models/ids';
+import { Profile } from 'src/models/profile';
 
 const API_URL = "http://localhost:3000/"
 
@@ -36,6 +38,20 @@ export class ApiService implements OnInit {
       tap(
         (data: Post[]) => console.log(data),
       ),
+    );
+  }
+
+  public getProfileFromId(id: ProfileId): Observable<Profile> {
+    return this.http.get<Profile[]>(API_URL + "profiles?id=" + id)
+    .pipe(
+      map((res: Profile[]) => res[0])
+    );
+  }
+
+  public getPostFromId(id: PostId): Observable<Post> {
+    return this.http.get<Post[]>(API_URL + "posts?id=" + id)
+    .pipe(
+      map((res: Post[]) => res[0])
     );
   }
 }

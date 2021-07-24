@@ -1,12 +1,14 @@
 {
     "posts": [
-      { "id": 1, "title": "Hilfe beim Wiederaufbau", "location": "Bad-Neuenahr", "poster": 123123, "imageUrl": "https://mainzund.de/wp-content/uploads/2021/07/Rueckstaende-Flut-Ufer-der-Ahr-Dernau-kleiner.jpg", "description": "Beim Wiederaufbau brauchen wir langfristig Hilfe!!!" },
-      { "id": 2, "title": "Hilfe beim Wiederaufbau", "location": "Bad-Neuenahr", "poster": 123123, "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIF.n8CHRqz6TVC0ONoezbKwhg%26pid%3DApi&f=1", "description": "Beim Wiederaufbau brauchen wir langfristig Hilfe!!!" },
-      { "id": 3, "title": "Hilfe beim Wiederaufbau", "location": "Bad-Neuenahr", "poster": 123123, "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.noz-cdn.de%2Fmedia%2F2021%2F07%2F17%2Feine-bruecke-die-im-bereich-des-kurparks-die-ahr_202107171412_full.jpeg&f=1&nofb=1", "description": "Beim Wiederaufbau brauchen wir langfristig Hilfe!!!" },
-      { "id": 4, "title": "Hilfe beim Wiederaufbau", "location": "Bad-Neuenahr", "poster": 123123, "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmar.prod.image.rndtech.de%2Fvar%2Fstorage%2Fimages%2Fwaz-az%2Fimport%2Fgalerien%2F2021%2F7%2Fgifhorner-helfen-beim-aufraeumen-an-der-ahr%2F6e5cf68e-eb86-11eb-b84d-d8f54e9592f4%2F773230098-1-ger-DE%2F6e5cf68e-eb86-11eb-b84d-d8f54e9592f4_gallery_detail.jpg&f=1&nofb=1", "description": "Beim Wiederaufbau brauchen wir langfristig Hilfe!!!" }
+      { "id": 1, "title": "Hilfe beim Wiederaufbau", "location": "Bad-Neuenahr", "posterId": 1, "imageUrl": "https://mainzund.de/wp-content/uploads/2021/07/Rueckstaende-Flut-Ufer-der-Ahr-Dernau-kleiner.jpg", "description": "Beim Wiederaufbau brauchen wir langfristig Hilfe!!!" },
+      { "id": 2, "title": "Hilfe beim Wiederaufbau", "location": "Bad-Neuenahr", "posterId": 1, "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIF.n8CHRqz6TVC0ONoezbKwhg%26pid%3DApi&f=1", "description": "Beim Wiederaufbau brauchen wir langfristig Hilfe!!!" },
+      { "id": 3, "title": "Hilfe beim Wiederaufbau", "location": "Bad-Neuenahr", "posterId": 1, "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.noz-cdn.de%2Fmedia%2F2021%2F07%2F17%2Feine-bruecke-die-im-bereich-des-kurparks-die-ahr_202107171412_full.jpeg&f=1&nofb=1", "description": "Beim Wiederaufbau brauchen wir langfristig Hilfe!!!" },
+      { "id": 4, "title": "Hilfe beim Wiederaufbau", "location": "Bad-Neuenahr", "posterId": 1, "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmar.prod.image.rndtech.de%2Fvar%2Fstorage%2Fimages%2Fwaz-az%2Fimport%2Fgalerien%2F2021%2F7%2Fgifhorner-helfen-beim-aufraeumen-an-der-ahr%2F6e5cf68e-eb86-11eb-b84d-d8f54e9592f4%2F773230098-1-ger-DE%2F6e5cf68e-eb86-11eb-b84d-d8f54e9592f4_gallery_detail.jpg&f=1&nofb=1", "description": "Beim Wiederaufbau brauchen wir langfristig Hilfe!!!" }
     ],
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }
     ],
-    "profile": { "name": "typicode" }
+    "profiles": [
+        {"id": 1, "sirname": "Tobias", "surname": "Braun", "profileImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gVyRdQSLao9MHZ_GCNnqSwHaDt%26pid%3DApi&f=1", "description": "Ich bin Gärtner und helfe weil es für mich einfach wichtig ist, dass wir zusammen halten!", "contactId": 1}
+    ]
   }

@@ -10,13 +10,17 @@ import { PostsPageComponent } from './pages/posts-page/posts-page.component';
 import { PostSmallComponent } from './components/post-small/post-small.component';
 import { PostDetailComponent } from './components/post-detail/post-detail.component';
 import { HttpClientModule } from '@angular/common/http';
-
+import { MatGridListModule } from '@angular/material/grid-list';
+import { PostDetailPageComponent } from './pages/post-detail-page/post-detail-page.component';
+import { ProfileDetailComponent } from './components/profile-detail/profile-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
     PostsPageComponent,
     PostSmallComponent,
-    PostDetailComponent
+    PostDetailComponent,
+    PostDetailPageComponent,
+    ProfileDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +29,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatCardModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

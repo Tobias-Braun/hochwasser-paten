@@ -4,7 +4,7 @@ export interface Post {
     id: PostId;
     title: string;
     location: string;
-    poster: ProfileId;
+    posterId: ProfileId;
     imageUrl: ImageId;
     description: string;
 }
