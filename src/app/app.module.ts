@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { PostDetailPageComponent } from './pages/post-detail-page/post-detail-page.component';
 import { ProfileDetailComponent } from './components/profile-detail/profile-detail.component';
+import { PateGroupPageComponent } from './pages/pate-group-page/pate-group-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { ProfileDetailComponent } from './components/profile-detail/profile-deta
     PostSmallComponent,
     PostDetailComponent,
     PostDetailPageComponent,
-    ProfileDetailComponent
+    ProfileDetailComponent,
+    PateGroupPageComponent,
   ],
   imports: [
     BrowserModule,

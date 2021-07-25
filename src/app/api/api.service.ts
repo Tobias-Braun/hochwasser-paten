@@ -3,8 +3,9 @@ import { Injectable, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map, tap } from 'rxjs/operators';
 import { Post } from '../../models/post';
-import { ProfileId, PostId } from '../../models/ids';
+import { ProfileId, PostId, OfferId } from '../../models/ids';
 import { Profile } from 'src/models/profile';
+import { Offer } from 'src/models/offer';
 
 const API_URL = "http://localhost:3000/"
 
@@ -52,6 +53,13 @@ export class ApiService implements OnInit {
     return this.http.get<Post[]>(API_URL + "posts?id=" + id)
     .pipe(
       map((res: Post[]) => res[0])
+    );
+  }
+
+  public getOfferFromId(id: OfferId): Observable<Offer> {
+    return this.http.get<Offer[]>(API_URL + "offers?id=" + id)
+    .pipe(
+      map((res: Offer[]) => res[0])
     );
   }
 }

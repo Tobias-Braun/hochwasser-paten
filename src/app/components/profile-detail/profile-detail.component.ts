@@ -8,7 +8,7 @@ import { Profile } from 'src/models/profile';
 })
 export class ProfileDetailComponent implements OnInit {
 
-  @Input() public profile: Profile | undefined | null;
+  @Input() profile: Profile | undefined | null;
 
   constructor() { }
 

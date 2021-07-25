@@ -4,6 +4,7 @@ import { PostDetailPageComponent } from './pages/post-detail-page/post-detail-pa
 import { PostsPageComponent } from './pages/posts-page/posts-page.component';
 
 const routes: Routes = [
+  { path: "", component: PostsPageComponent},
   { path: "post-detail", component: PostDetailPageComponent},
   { path: "posts", component: PostsPageComponent},
 ];
